@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar {
+    display: none;
+  }
+  
+  body {
+    -ms-overflow-style: none;
+    scrollbar-width: none; 
+}
+*>* {
+    font-family: "Lato", sans-serif;
+}
+
+.bg-glass {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    position: relative;
+    overflow: hidden;
+}
+
+.text-wh {
+    color: #ffffff; /* White color */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Adding slight shadow for better readability */
+  }
+.text-gr {
+    color: #1ede2e; /* White color */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Adding slight shadow for better readability */
+  }
+  
+.bg-glass::before {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    z-index: -1;
+   
+    border-radius: inherit;
+    animation: gradient-border 3s linear infinite;
+}
+
+
+/* Add your existing styles here */
+
+.fold-animation {
+    animation: fold 2s forwards;
+  }
+  
+  @keyframes fold {
+    0% {
+      transform: perspective(1000px) rotateX(0deg);
+    }
+    100% {
+      transform: perspective(1000px) rotateX(-90deg);
+    }
+  }
+  

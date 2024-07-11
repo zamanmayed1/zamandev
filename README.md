@@ -1,8 +1,34 @@
-# React + Vite
+# Kamruzzaman Mayed - Personal Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal portfolio website! This project showcases my skills, projects, and professional background as a developer.
 
-Currently, two official plugins are available:
+## Table of Contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Introduction](#introduction)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Project Structure](#project-structure)
+- [Contact](#contact)
+
+## Introduction
+
+This is a personal portfolio website built to highlight my skills, experience, and projects. It serves as a digital resume, allowing potential employers and collaborators to learn more about my work.
+
+## Features
+
+- Responsive design
+- Projects showcase with descriptions and links
+- About me section
+- Contact form
+- Simple and clean UI
+
+## Technologies Used
+
+- **Frontend:**
+  - React
+  - Vite
+  - Tailwind CSS
+  - React Router DOM
+
