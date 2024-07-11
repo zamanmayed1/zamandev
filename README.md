@@ -7,10 +7,7 @@ Welcome to my personal portfolio website! This project showcases my skills, proj
 - [Introduction](#introduction)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Project Structure](#project-structure)
-- [Contact](#contact)
+
 
 ## Introduction
 
